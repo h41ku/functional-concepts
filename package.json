@@ -1,0 +1,31 @@
+{
+  "name": "functional-concepts",
+  "version": "0.0.1",
+  "description": "Библиотека с набором функций для возможности использования некоторых приемов функционального программирования",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    },
+    "./curried": {
+      "types": "./src/curried/index.d.ts",
+      "import": "./src/curried/index.js"
+    }
+  },
+  "scripts": {
+    "test": "node tests/index.js"
+  },
+  "keywords": [
+    "functional", "concepts", "functional concepts",
+    "compose", "curry", "flip", "memoize", "partial", "pipe",
+    "concat", "each", "filter", "find", "findIndex", "last",
+    "map", "reduce", "reduceRight", "reverse", "sort", "unique"
+  ],
+  "author": "h41ku <h41ku.c0de@ya.ru>",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
